@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "youtube-livechat-search"
+authors = [
+    {name = "Luc", email = "lucifiel1618@gmail.com"},
+]
+description = "A simple special-purpose command line tool for searching and data visualizing keywords appearing in youtube live chat. Based on pytchat."
+readme = "README.md"
+requires-python = ">=3.7"
+version = "1.0.0"
+dependencies = [
+    "pytchat",
+    "coloredlogs"
+]
+[project.optional-dependencies]
+graph = ["numpy","matplotlib"]
+
+[project.scripts]
+youtube-livechat-search = "youtube_livechat_search.youtube_livechat:main"
+
+[tool.setuptools.packages]
+find = {}
