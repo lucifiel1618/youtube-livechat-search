@@ -1,4 +1,4 @@
-# Youtube LiveChat Query
+# Youtube LiveChat Search
 
 ## Description
 A simple special-purpose command line tool for searching and data visualizing keywords appearing in youtube live chat.
